@@ -12,3 +12,37 @@ bodyClass: page-about
 
 
 ## 实验室活动
+
+
+<div class='header' style="background:url(../images/logo/1_主页_头部背景.png);" >
+  <div class="container" >
+    <div class='row'>
+      <div class="col-12">
+         <div class='row'>
+           <div class="col-4">
+            <div class="logo">
+               <a href="{{ site.baseurl }}"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+            </div>
+            <div class="logo-mobile">
+             <a href="{{ site.baseurl }}"><img alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+            </div>
+           </div>
+           <div class="col-8">
+            <div class="row">
+              <img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="images/logo/3_主页_头部“视觉机器人自动化实验室”.png" />
+            </div>        
+            <div class="row">
+              <img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="images/logo/4_主页_头部英文题目.png" />
+            </div> 
+           </div>
+         </div>
+      </div>
+    </div>
+    <div class='row'>
+       <div class="col-12">
+    {% include main-menu.html %}
+    {% include hamburger.html %}
+      </div>
+    </div>
+  </div>
+</div>
