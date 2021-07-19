@@ -18,7 +18,7 @@ logo:
   english: "images/logo/4_主页_头部英文题目.png"
   headw: "images/logo/5_主页_头部白色竖条.png"
   chinese_height: "36px"
-  desktop_height: "72px"
+  desktop_height: "48px"
   #desktop_height: "36px"
 
 footer:
