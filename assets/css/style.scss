@@ -62,6 +62,13 @@ $sub-footer-text-color: $white;
 @import 'components/feature';
 @import 'components/social';
 
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
+
 // Pages
 @import 'pages/home';
 @import 'pages/team/team-summary';
