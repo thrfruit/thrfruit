@@ -16,6 +16,8 @@ logo:
   desktop: "images/logo/hitLOGO.png"
   chinese: "images/logo/3_主页_头部“视觉机器人自动化实验室”.png"
   english: "images/logo/4_主页_头部英文题目.png"
+  headw: "images/logo/5_主页_头部白色竖条.png"
+  
   desktop_height: "72px"
   #desktop_height: "36px"
 
