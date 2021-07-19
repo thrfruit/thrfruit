@@ -22,13 +22,15 @@
         <div class="col-4 ">  
           <div class="footer-inner">
             <!--<h3 class="footer-title">{{site.title}}</h3>-->
-           <ul style="text-align:right;">
-             {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-             {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
+           <ul>
+             <div class="floatleft">
+                {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+                {% for item in footermenu %}
+               <li class="{% if item.url == page.url %}active{% endif %}">
+                 <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+               </li>
+                {% endfor %}
+             </div>
           </ul>
          <!--<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=tt&d=x93krhc5ecdKoQKiHZBkbBTM7KGjKckVSMlrBUrMrI4&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script> 
        --> </div>
